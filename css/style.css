@@ -1,0 +1,541 @@
+/*==========Common CSS===========*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 60px 0px;
+}
+
+
+/*==========Header Design===========*/
+
+header#header_area {
+    background: #212121;
+}
+
+.headerWrapper {
+    overflow: hidden;
+}
+.headerWrapper ul {
+    float: right;
+    margin: 0;
+}
+.headerWrapper ul li {
+    list-style: none;
+    float: left;
+}
+.headerWrapper ul li a {
+    padding: 6px 6px;
+    display: block;
+    color: #9B59B6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.headerWrapper ul li a:hover {
+    color: #ddd;
+    background: #232323;
+}
+
+
+/*==========Slider Design===========*/
+
+section#slider_area {
+    padding: 0px 0px;
+    overflow: hidden;
+}
+.bx-wrapper {
+	margin-bottom: 0px;
+}
+.slider{
+    position: relative;
+}
+.item{
+    position: relative
+}
+.item img{
+    width: 100%
+}
+.slider-caption{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.slider-caption h1:after{
+    content: "";
+    position: absolute;
+    top: 52%;
+    left: 25%;
+    width: 50%;
+    height: 1px;
+    background: #fff;
+}
+.slider-caption p{
+    margin-top: 30px
+}
+.bx-wrapper .bx-pager{
+    display: none
+}
+.btn{
+    padding: 8px 50px;
+    background: #9B59B6;
+    color: #fff;
+    font-family: tahoma;
+    font-size: 17px;
+    border: 5px solid #D289DE;
+}
+.btn:hover{
+    color: #ddd;
+}
+
+/*==========Menu and Logo Design===========*/
+
+
+.slider_wrapper{
+    overflow: hidden;
+    position: relative;
+}
+.slider_topper{
+    width: 100%;
+    color: #333;
+    position: absolute;
+    color: #fff;
+    z-index: 999
+}
+.logo{
+    width: 30%;
+    font-weight: bold;
+    margin-top: 48px;
+    margin-left: 112px;
+    cursor: pointer;
+}
+.menu_area{
+    width: 70%;
+    position: absolute;
+    left: 29%;
+    top: 0;
+}
+.menu_area ul {
+    float: right;
+}
+.menu_area ul li{
+    float: left;
+    list-style: none;
+}
+.menu_area ul li a{
+    color: #fff;
+    padding: 50px 30px;
+    display: block;
+    
+}
+.menu_area ul li a:hover{
+    color: #B680BC
+    
+}
+
+
+/*=================Single Box Area=================*/
+
+
+section#singleBoxDesign {
+    padding-bottom: 0;
+}
+.singleBoxWrapper {
+    overflow: hidden;
+}
+.singleBox h2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    color: #444;
+}
+
+.singleBox p {
+    text-align: center;
+    color: #555;
+}
+.boxIcon {
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 0;
+    padding-right: 0 !important;
+    width: 132px;
+}
+
+.boxIcon a i {
+    width: 32px;
+    height: 32px;
+    background: #9B59B6;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    float: left;
+    margin: 6px;
+    color: #fff;
+}
+
+.boxIcon a {
+    text-decoration: none;
+    margin-top: 0 !important;
+}
+
+.boxIcon a i:hover {
+    background: #D368FF;
+}
+
+.singleBox a {
+    display: block;
+    /* text-decoration: none; */
+    color: #9B59B6;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.singleBox a:hover {
+    color: #D368FF;
+}
+.singleBox {overflow: hidden;}
+
+
+/*==========Raphael Area===========*/
+
+
+section#repheal_area {
+    padding: 0px 0px;
+    border-top: 1px solid #ddd;
+}
+.rephealWrapper {
+    overflow: hidden;
+}
+
+.headingArea h2 {
+    text-align: center;
+    color: #9B59B6;
+    margin: 30px 0;
+}
+
+.card.margin_bottom {
+	margin-bottom: 20px;
+}
+
+.headingArea p {
+    width: 69%;
+    margin: auto;
+    text-align: center;
+    color: #484848;
+    margin-bottom: 60px;
+}
+
+/*==========Card Design===========*/
+
+.card {
+    text-align: center;
+}
+
+.card-body h5 {
+    margin: 25px;
+    color: #9B59B6;
+}
+
+.card-body p {
+    color: #484848;
+    text-align: justify;
+}
+
+
+/*==========Isotop Design===========*/
+
+
+section#isotop_area {
+    padding-bottom: 0;
+}
+.isotopWrapper {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+}
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 45px;
+    color: #444;
+}
+.singleIsotop {
+    text-align: center;
+    width: 73.5%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 45px;
+}
+.singleIsotop:hover .isotopInfo{
+    transform: scaleY(1);
+    visibility: visible;
+}
+.isotopInfo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #9B59B6;
+    width: 100%;
+    text-align: left;
+    padding: 2px 20px;
+    transform: scaleY(0);
+    visibility: hidden;
+    transform-origin: bottom;
+    transition: .2s;
+}
+.isotopInfo span {
+    width: 100%;
+    height: 6px;
+    background: rgba(137,123,257,0.35);
+    position: absolute;
+    left: 0;
+    margin-top: -8px;
+}
+
+.singleIsotop img {
+    width: 100%;
+}
+
+.row {
+    border-top: 1px solid #ccc;
+    padding-top: 60px;
+}
+
+.isotopInfo h3 {
+    color: white;
+    font-size: 22px;
+    margin-top: 11px;
+    margin-bottom: -2px;
+}
+
+.isotopInfo p {
+    color: #444;
+}
+.btn_view {
+    margin: auto;
+    display: block;
+    padding: 10px 26px;
+    border: none;
+    margin-top: 10px;
+}
+.btn_view i {
+    margin-left: 5px;
+}
+.btn_view:hover {
+    background: #d368ff;
+}
+form.imgSearch {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    transform: scale(0);
+    visibility: hidden;
+    transform-origin: right;
+    transition: .3s;
+}
+form.imgSearch input {
+    padding: 4.9px 8px;
+    color: #444;
+    border: none;
+}
+
+form.imgSearch i {
+    color: white;
+    background: #9B59B6;
+    padding: 9px 10px;
+    cursor: pointer;
+}
+
+form.imgSearch i:active {
+    background: rgba(123,123,123,.35);
+    width: 36px;
+}
+.singleIsotop:hover form.imgSearch {
+    transform: scaleX(1);
+    visibility: visible;
+}
+.rgba_background {
+    width: 100%;
+    height: 100%;
+    background: rgba(123,123,123,.5);
+    position: absolute;
+    transition: .3s
+}
+
+.singleIsotop:hover .rgba_background {
+    background: none
+}
+
+
+/*==========Message Area===========*/
+
+
+#message_area {
+	padding: 40px 0;
+}
+.messagerWrapper {
+    overflow: hidden;
+}
+
+.mHeading {
+    text-align: center;
+    color: #9B59B6;
+    margin-bottom: 50px;
+}
+
+.inputDesign input {
+    width: 48%;
+    display: block;
+    margin: auto;
+    float: left;
+    margin-bottom: 30px;
+    padding: 18px 25px;
+    background: #E4E8E8;
+    color: #777;
+    border: 1px solid #777;
+}
+
+.inputDesign {margin: auto;display: block;width: 100%;}
+
+.inputDesign input:first-child {
+    margin-right: 4%;
+}
+
+.textArea textarea {
+    background: #E4E8E8;
+    padding: 18px 25px;
+    background: #E4E8E8;
+    color: #777;
+    width: 100%
+}
+
+
+/*==========Message Area===========*/
+
+
+footer#footerArea {
+    background: #9B59B6;
+}
+
+.footerWrapper {
+    overflow: hidden;
+}
+
+.SocialArea {
+    text-align: center;
+    margin-bottom: -48px;
+    margin-top: 20px;
+}
+
+.SocialArea i {
+    padding: 15px;
+    background: #fff;
+    margin-right: 15%;
+    border: 5px solid #C49DD4;
+    color: #9B59B6;
+    font-size: 40px;
+}
+
+.SocialArea i:last-child {
+    margin-right: 0;
+}
+.copuRightArea {
+    margin-top: 110px;
+    color: #fff;
+    width: 100%;
+}
+
+.copuRightArea h5 {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.copuRightArea h5:first-child {
+    float: left;
+}
+
+
+/*==========Material Scrolltop===========*/
+
+
+h5.cRAlign {
+    float: right;
+    margin-bottom: 60px;
+}
+
+button.material-scrolltop {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    background: #9B59B6;
+}
+
+button.material-scrolltop:hover {
+    background: #D368FF;
+}
+
+
+/*==========Isotop Jquery Plugin Design===========*/
+
+
+section#mIsotopArea {
+    padding: 20px 0;
+}
+.isotop_menu ul {
+    width: 381px;
+    text-align: center;
+    margin: auto;
+}
+
+.mIsotopWrapper {
+    overflow: hidden;
+}
+
+.isotop_menu ul li {list-style: none;float: left;}
+
+.isotop_menu ul li {
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    background: #9B59B6;
+    color: #fff;
+    border-radius: 7px;
+    margin: 0 7px;
+}
+
+.isotop_menu ul li:hover {
+    background: #D368FF;
+    transition-duration: .2s;
+    cursor: pointer
+}
+
+.isotop_menu ul li::active {
+    background: #be21ff;
+}
+
+.row.mborder {
+    border: navajowhite;
+    padding-top: 40px;
+}
+.singlePortFolio img {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.singlePortFolio {
+    text-align: center;
+}
+
+
+
+
+
+
+

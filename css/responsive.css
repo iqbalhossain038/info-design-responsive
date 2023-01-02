@@ -1,0 +1,119 @@
+@media only screen and (min-width:200px) and (max-width:768px){
+    .headerWrapper ul {
+	    margin: auto;
+	    width: 269px;
+        float: none;
+    }
+    .logo {
+    	width: 100%;
+    	text-align: center;
+    	margin: 23px 0;
+    }
+    .menu_area {
+    	width: 100%;
+    	margin: auto;
+    	left: 0;
+        display: grid;
+        place-items: center;
+    }
+    .menu_area ul {
+    	float: none;
+    }
+    .menu_area ul li a {
+    	padding: 65px 10px;
+    }
+    .slider-caption {
+    	top: 73%;
+    }
+    .slider-caption h1 {
+    	font-size: 27px;
+    }
+    .slider-caption p {
+	    font-size: 15px;
+    }
+    .inputDesign input {
+	    padding: 10px 20px;
+    }
+    .textArea textarea {
+	    height: 160px;
+    }
+    .SocialArea {
+	    margin-bottom: -34px;
+    }
+    .SocialArea i {
+	    padding: 10px;
+	    font-size: 28px;
+    }
+    .copuRightArea h5 {
+	    padding: 0 20px;
+    }
+    
+    .menu_area ul li a {
+    	padding: 0px 8px;
+    	margin-top: 40px;
+    }
+    .logo {
+    	margin: 10px 0;
+    }
+    
+}
+
+
+@media only screen and (min-width:200px) and (max-width:480px){
+    section{
+        padding: 0;
+        margin: 0
+    }
+    .isotop_menu ul {
+    	width: 286px
+    }
+    .isotop_menu ul li {
+    	margin: 0 3px;
+    	font-size: 14px;
+    	padding: 3px 7px;
+    }
+    .menu_area ul li a {
+    	padding: 0px 6px;
+    	margin-top: 34px;
+    	font-size: 12px;
+    }
+    .logo {
+    	margin: 6px 0;
+    }
+    .slider-caption {
+    	top: 82%;
+    }
+    .slider-caption h1 {
+    	font-size: 19px;
+    }
+    
+    .slider-caption p {
+	    font-size: 12px;
+        margin-top: 11px
+    }
+    .isotopInfo h3 {
+    	font-size: 17px;
+    	margin-top: 2px;
+    	margin-bottom: -3px;
+    }
+    .isotopInfo p {
+    	font-size: 13px;
+    }
+    form.imgSearch {
+    	top: 5px;
+    }
+    form.imgSearch input {
+    	padding: 2.9px 6px;
+        width: 110px;
+    }
+    form.imgSearch i {
+    	padding: 7px 6px;
+    }
+    
+    .inputDesign input {
+    	padding: 5px 12px;
+    	width: 100%;
+    	margin-bottom: 15px;
+    }
+    
+}
